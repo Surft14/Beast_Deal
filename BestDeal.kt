@@ -32,7 +32,7 @@
      
      for(i in 0 until size){
          
-         for(j in i until size){
+         for(j in i+1 until size){
              
              if(bulge < (priceGold[j] - priceGold[i])){ 
                     
